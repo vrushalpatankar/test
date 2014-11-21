@@ -10,3 +10,4 @@
 #
 Chef::Log.info("This is a first hello recipe from internal chef server..")
 Chef::Log.info("Hello, I am #{node[:hostname]}, which has #{node[:platform_family]} installed of version #{node[:platform_version]}.")
+Chef::Log.info("I will come back with more cookbooks")
